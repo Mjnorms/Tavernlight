@@ -1,0 +1,9 @@
+Module
+  name: game_shaders
+  description: add player shader
+  author:
+  website:
+  scripts: [ shaders.lua ]
+  sandboxed: true
+  @onLoad: init()
+  @onUnload: terminate()
