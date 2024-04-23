@@ -1,0 +1,9 @@
+Module
+  name: game_jumpgame
+  description: cool menu with button to click for fun gameplay
+  author: mjnorms
+  website: https://github.com/Mjnorms/Tavernlight
+  sandboxed: true
+  scripts: [ jumpgame ]
+  @onLoad: init()
+  @onUnload: terminate()

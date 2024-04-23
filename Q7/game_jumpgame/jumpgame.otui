@@ -1,0 +1,15 @@
+JumpGameWindow < MainWindow
+  size: 300 300
+
+JumpButton < Button
+  width: 50
+  !text: tr('Jump!')
+  id: jumpButton
+  margin-top: 0
+  margin-left: 0
+  anchors.left: parent.left
+  anchors.top: parent.top
+  @onClick: modules.game_jumpgame.JumpGame.resetButton()
+
+JumpGameWindow
+  JumpButton
