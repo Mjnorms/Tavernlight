@@ -11,9 +11,7 @@ I ended up implementing the effect.cpp changes in order to make the storm appear
     int yPattern = unsigned(offsetY) % getNumPatternY();
 
 All I had to do after that was adjust the areas in the spell!
-
-
-Depricated
+	
 
 It does not directly match the original, as the sprite offset of my spritesheet was different. 
 I attempted to alter the offset of the sprite using an AssetEditor that I found of the OTLand forums but the tool did not work for me. 
