@@ -6,4 +6,4 @@ It was fun to explore and learn, after the classic initial workspace setup woes.
 Q1-Q3 are in a single LUA file  
 Q4 is the cpp file  
 Q5 and Q7 are complete  
-Q6 is WIP; I ran out of time after a busy week.  
+Q6 is WIP
